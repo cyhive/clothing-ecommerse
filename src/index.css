@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-display: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-display-regal {
+  font-family: 'Cinzel', serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0a09;
+}
+::-webkit-scrollbar-thumb {
+  background: #332a24;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+@keyframes goldShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-gold {
+  background: linear-gradient(90deg, transparent 0%, rgba(212, 175, 55, 0.15) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: goldShimmer 3.5s infinite linear;
+}

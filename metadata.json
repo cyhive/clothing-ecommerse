@@ -1,0 +1,6 @@
+{
+  "name": "Aura Vastra - Luxury Handcrafted Sarees",
+  "description": "Exquisite handcrafted sarees, heritage weaves, Banarasi, Kanjeevaram, and Chanderi silks with interactive parallax scrolling and artisan storytelling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
